@@ -1,0 +1,68 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgba(238, 238, 238, 0.95) !important;
+    background: url("./SoftUniFoundation_Logo.png");
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: none;
+    background-blend-mode: color;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, 0.3);
+  }
+
+.jumbo-wrapper {
+  margin: 5rem
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h3{
+    margin-top: 4rem
+}
+
+h3>span{
+    color: rgb(0, 174, 255);
+}
+
+article.header{
+  color: #565656;
+}
+
+article.container{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+section{
+    flex: 0 0 40%;
+    padding: 1rem;
+    margin: 1rem;
+    color:  #565656;
+    background: rgb(242, 242, 242);
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+section > div{
+    padding: 0.3rem 0.8rem;
+    margin: 0.8rem 0;
+    background: #dadada;
+    border-radius: 0.5rem;
+}
+
+section > div:hover{
+    background: orange;
+    color: white;
+    cursor: pointer; 
+}
+
+
